@@ -1,0 +1,127 @@
+.navbar {
+    /* display: flex;
+    justify-self:center;
+    align-items: center; */
+    overflow-x:"hidden";
+    height: 50px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+  
+  #navbar_container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  #first {
+    margin-right: 2%;
+    align-items: center;
+    justify-self: flex-start;
+    display: flex;
+    font-size: larger;
+    width: auto;
+    height: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  img {
+    border-radius: 25px;
+    border: 2px solid #3a818a;
+  }
+
+  #navs {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 0px;
+    color: white
+  }
+  
+  #basic-navbar-nav {
+      margin-right: 0px;
+      justify-content: flex-end;
+  }
+    
+  #navs-link {  
+    font-size: large;
+    margin-bottom: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10%;
+    color:#f1faff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  #nav_logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 3%;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  #last {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 85%;
+    padding-right: 15px;
+  }
+
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: #355b87;
+  }
+/*   
+  span {
+    margin-left: 16px;
+  } */
+
+#basic-nav-dropdown {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    /* right: auto !important;
+    left: -1 !important;
+    text-align:left; */
+    font-size: large;
+    margin-bottom: 14px;
+   }
+
+   #basic-nav-dropdown a {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+   }
+
+/* #nav-drop {
+  display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+

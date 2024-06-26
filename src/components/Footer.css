@@ -1,0 +1,48 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;       
+    height: auto;
+    font-size: 1em;
+    /* padding: 0.5%;  */
+    position: sticky;
+    bottom: 0;
+    background-color: #d7e5f0;
+  }
+
+  .py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #subscribe_btn {
+    background-color: #4f76aa;
+    font-size:medium;
+    border-color: #263e6d;
+    height: 5%;
+    justify-content: center;
+    display: flex;
+  }
+
+  #input_type {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #072258;
+    text-align: center;
+  }
+
+  .d-flex {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
