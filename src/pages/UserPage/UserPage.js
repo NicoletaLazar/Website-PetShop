@@ -10,7 +10,7 @@ export function UserPage() {
     }, 2000);
   }, []);
   return (
-    <div>
+    <div id="users_page">
       <h1 id="title_page">User Page</h1>
     </div>
   );

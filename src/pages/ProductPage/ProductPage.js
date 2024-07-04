@@ -68,28 +68,30 @@ export default function ProductPage() {
   };
 
   return (
-    <Container fluid>
-      <Row>
-        <h1 id="title_page">Product Page</h1>
-      </Row>
-      <Row>
-        <Col className="p-0" xs={3}>
-          <SidebarMenu />
-        </Col>
-        <Col xs={9}>
-          <Posts x={currentPosts} loading={loading} />
-          <Paginations
-            xs={8}
-            postsPerPage={postsPerPage}
-            totalPosts={posts.length}
-            paginate={paginate}
-            previousPage={previousPage}
-            nextPage={nextPage}
-            currentPage={currentPage}
-            lastPage={lastPage}
-          />
-        </Col>
-      </Row>
-    </Container>
+    <div id="products">
+      <Container fluid>
+        <Row>
+          <h1 id="title_page">Product Page</h1>
+        </Row>
+        <Row>
+          <Col className="p-0" xs={3}>
+            <SidebarMenu />
+          </Col>
+          <Col xs={9}>
+            <Posts x={currentPosts} loading={loading} />
+            <Paginations
+              xs={8}
+              postsPerPage={postsPerPage}
+              totalPosts={posts.length}
+              paginate={paginate}
+              previousPage={previousPage}
+              nextPage={nextPage}
+              currentPage={currentPage}
+              lastPage={lastPage}
+            />
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }

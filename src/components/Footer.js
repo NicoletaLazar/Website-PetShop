@@ -11,7 +11,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <>
+    <div id="petshop-footer">
       <Row>
         <Container fluid className="footer dark fixed">
           <Col className="col-5">
@@ -52,7 +52,7 @@ function Footer() {
             <Form className="justify-content-center py-3 my-4 text-muted">
               <h5>Subscribe to our newsletter</h5>
               <p>Monthly digest of whats new and exciting from us.</p>
-              <div className="d-flex">
+              <div className="d-flex align-items-center justify-content-center">
                 <FloatingLabel controlId="input_type" label="Email address">
                   <Form.Control
                     id="input_type"
@@ -75,7 +75,7 @@ function Footer() {
           </Col>
         </Container>
       </Row>
-    </>
+    </div>
   );
 }
 

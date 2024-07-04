@@ -6,13 +6,14 @@ import { IoMdCart } from "react-icons/io";
 import { IoLogIn } from "react-icons/io5";
 import { IoLogOut } from "react-icons/io5";
 import { MdProductionQuantityLimits } from "react-icons/md";
+import { MdOutlineFavorite } from "react-icons/md";
 import "./Navbar.css";
 import { FaUser } from "react-icons/fa";
 
 export default function Topbar() {
   return (
-    <Row>
-      <Container id="navbar_container">
+    <Container id="navbar_container">
+      <div id="navi">
         <Navbar
           variant="light"
           sticky="top"
@@ -60,6 +61,16 @@ export default function Topbar() {
                   <IoMdCart />
                   Cart
                 </NavLink>
+                <NavLink
+                  to="/favoritepage"
+                  href="#favorite"
+                  id="navs-link"
+                  style={({ isActive }) => {
+                    return isActive ? { color: "#04c0d9" } : {};
+                  }}
+                >
+                  <MdOutlineFavorite />
+                </NavLink>
                 <img
                   src="http://www.w3.org/2000/svg"
                   // width="30"
@@ -93,8 +104,8 @@ export default function Topbar() {
               </Nav>
             </Navbar.Collapse>
           </Col>
-        </Navbar>
-      </Container>
-    </Row>
+        </Navbar>{" "}
+      </div>
+    </Container>
   );
 }
