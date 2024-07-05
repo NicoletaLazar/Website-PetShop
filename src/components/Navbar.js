@@ -1,7 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "./logo.png";
-import { Container, Nav, NavDropdown, Navbar, Row, Col } from "react-bootstrap";
+import {
+  Container,
+  Nav,
+  NavDropdown,
+  Navbar,
+  Col,
+  Button,
+  Form,
+} from "react-bootstrap";
 import { IoMdCart } from "react-icons/io";
 import { IoLogIn } from "react-icons/io5";
 import { IoLogOut } from "react-icons/io5";
@@ -23,13 +31,22 @@ export default function Topbar() {
           data-bs-theme="dark"
           className="navbar"
         >
-          <Col>
+          <Col xs={2}>
             <Navbar.Brand id="nav_logo" href="#home">
               <h1 id="first">Pet Shop</h1>
               <img src={logo} alt="MyPet" width="40" height="40" />
             </Navbar.Brand>
           </Col>
-          <Col className="justify-content-end" id="last">
+          <Col xs={16} className="justify-content-end" id="last">
+            <Form className="d-flex">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-success">Search</Button>
+            </Form>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav
