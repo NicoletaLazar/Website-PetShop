@@ -8,6 +8,7 @@ import { UserPage } from "./pages/UserPage/UserPage";
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "./components/Footer";
 import Topbar from "./components/Navbar";
+import { FavoritePage } from "./pages/FavoritePage/FavoritePage";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <Container fluid>
         <Row className="top-row">
           <Col style={{ "padding-left": 0, "padding-right": 0 }}>
-            <Topbar />
+            <Row>
+              <Topbar />
+            </Row>
           </Col>
         </Row>
       </Container>
@@ -24,6 +27,7 @@ function App() {
           <Route exact path="/" reloadDocument element={<ProductPage />} />
           <Route path="/cartpage" element={<CartPage />} />
           <Route path="/userpage" element={<UserPage />} />
+          <Route path="/favoritepage" element={<FavoritePage />} />
         </Routes>
       </div>
       <Footer style={{ fixed: "bottom" }} />

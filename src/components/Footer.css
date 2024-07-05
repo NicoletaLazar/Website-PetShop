@@ -1,4 +1,4 @@
-.footer {
+#petshop-footer .footer {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -13,17 +13,17 @@
     background-color: #d7e5f0;
   }
 
-  .py-3 {
+  #petshop-footer .py-3 {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
   
-  .my-4 {
+  #petshop-footer .my-4 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
   
-  #subscribe_btn {
+  #petshop-footer #subscribe_btn {
     background-color: #4f76aa;
     font-size:medium;
     border-color: #263e6d;
@@ -32,7 +32,7 @@
     display: flex;
   }
 
-  #input_type {
+  #petshop-footer #input_type {
     width: 95%;
     display: flex;
     justify-content: center;
@@ -41,8 +41,4 @@
     text-align: center;
   }
 
-  .d-flex {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
+  

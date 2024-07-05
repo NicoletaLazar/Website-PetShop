@@ -18,6 +18,15 @@
   margin-bottom: 0;
 }
 
+#title_page {
+  color: #1c324b;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-overflow:ellipsis;
+}
+
 /* .top-row {
   margin: 0;
   padding: 0;

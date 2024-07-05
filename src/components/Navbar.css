@@ -1,4 +1,4 @@
-.navbar {
+#navi .navbar {
     /* display: flex;
     justify-self:center;
     align-items: center; */
@@ -8,12 +8,12 @@
     padding-right: 20px; */
   }
   
-  #navbar_container {
+  #navi #navbar_container {
     padding-left: 0;
     padding-right: 0;
   }
   
-  #first {
+  #navi #first {
     margin-right: 2%;
     align-items: center;
     justify-self: flex-start;
@@ -24,12 +24,12 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
-  img {
+  #navi img {
     border-radius: 25px;
     border: 2px solid #3a818a;
   }
 
-  #navs {
+  #navi #navs {
     padding-top: 8px;
     display: flex;
     align-items: center;
@@ -38,12 +38,12 @@
     color: white
   }
   
-  #basic-navbar-nav {
+  #navi #basic-navbar-nav {
       margin-right: 0px;
       justify-content: flex-end;
   }
     
-  #navs-link {  
+  #navi  #navs-link {  
     font-size: large;
     margin-bottom: 10px;
     text-decoration: none;
@@ -55,7 +55,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
-  #nav_logo {
+  #navi #nav_logo {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -64,7 +64,7 @@
     text-align: center;
   }
   
-  #last {
+  #navi #last {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -72,7 +72,7 @@
     padding-right: 15px;
   }
 
-  .nav-text {
+  #navi .nav-text {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -81,7 +81,7 @@
     height: 60px;
   }
   
-  .nav-text a {
+  #navi .nav-text a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -93,7 +93,7 @@
     border-radius: 4px;
   }
   
-  .nav-text a:hover {
+  #navi .nav-text a:hover {
     background-color: #355b87;
   }
 /*   
@@ -101,7 +101,7 @@
     margin-left: 16px;
   } */
 
-#basic-nav-dropdown {
+  #navi #basic-nav-dropdown {
     display:flex;
     justify-content: center;
     align-items:center;
@@ -113,7 +113,7 @@
     margin-bottom: 14px;
    }
 
-   #basic-nav-dropdown a {
+   #navi #basic-nav-dropdown a {
     align-items: end;
     display: flex;
     justify-content: center;
